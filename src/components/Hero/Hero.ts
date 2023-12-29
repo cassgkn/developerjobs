@@ -37,6 +37,7 @@ export const StyledH2 = styled.h2`
 
   @media (max-width: 768px) {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+    padding: 0 10px;
   }
 `

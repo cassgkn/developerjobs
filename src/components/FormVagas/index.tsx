@@ -16,7 +16,7 @@ const FormVagas = ({ aoPesquisar }: Props) => {
   return (
     <StyledForm onSubmit={aoEnviarForm}>
       <StyledInput
-        placeholder="Pesquisa por vaga, localização ou senioridade..."
+        placeholder="Pesquise por vaga, localização ou senioridade..."
         onChange={(e) => setTermo(e.target.value)}
         type="search"
       />
